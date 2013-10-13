@@ -98,7 +98,7 @@ DataStore</a></li>
 
 <p>Receive the response in the client.</p>
 
-<div class="highlight"><pre><span class="nx">dispatcher</span><span class="p">.</span><span class="nx">bind</span><span class="p">(</span><span class="s1">'tasks.create_successful'</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">task</span><span class="p">)</span> <span class="p">{</span>
+<div class="highlight"><pre><span class="nx">dispatcher</span><span class="p">.</span><span class="nx">bind</span><span class="p">(</span><span class="s1">'tasks.create_success'</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">task</span><span class="p">)</span> <span class="p">{</span>
   <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'successfully created '</span> <span class="o">+</span> <span class="nx">task</span><span class="p">.</span><span class="nx">name</span><span class="p">);</span>
 <span class="p">});</span>
 </pre></div>
